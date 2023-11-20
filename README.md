@@ -13,7 +13,7 @@ using namespace std;
 
 int main()
 {
-	hwid->pcInformation(); //show all pc informacions
+	hwid->pcInformation(); //show all pc information
 	cout << "SHA-256 HWID: " << hwid->hwidHash() << endl << endl; //show HWID Hash
 	system("pause");
 	return 0;
